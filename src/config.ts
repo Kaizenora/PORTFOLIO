@@ -2,35 +2,36 @@ export const config = {
     developer: {
         name: "Siddharth",
         fullName: "Siddharth Gadhave",
-        title: "Full Stack Developer",
-        description: "Full Stack Developer and student at Army Institute of Technology Pune with a passion for development, constant learning, leadership, and graphic design."
+        title: "Developer & Builder",
+        description: "Freelance Developer and student at Army Institute of Technology Pune building SaaS, digital products, and software."
     },
     social: {
-        github: "https://github.com/sidharthgadhave04-arch",
+        github: "https://github.com/kaizenora",
         email: "sidharthgadhave04@gmail.com",
         location: "Maharashtra, India"
     },
     about: {
         title: "About Me",
-        description: "I am Siddharth Gadhave, currently a student at Army Institute of Technology Pune. I have a deep interest in development, constantly learning new technologies, and exercising leadership. Outside of code I enjoy graphic designing and exploring creative ways to solve problems. I'm always eager to grow and collaborate on meaningful projects."
+        description: "I'm an Electronics & Telecommunication Engineering student who spends most of his time building software. I build SaaS & digital products from idea to deployment, freelance for businesses, and experiment with AI and modern web tech. Outside of coding, I'm probably discovering something random or doing absolutely nothing. Build it. Break it. Fix it. Ship it. Repeat."
     },
     experiences: [
         {
-            position: "Learning Something New",
-            company: "Self-Development",
-            period: "2025 - Present",
+            position: "Freelancer",
+            company: "Independent",
+            period: "2025",
             location: "Maharashtra, India",
-            description: "Continuously exploring emerging technologies, researching advanced AI systems, and pushing the boundaries of what's possible in tech.",
+            description: "Freelancing for businesses and individuals — building websites, SaaS products, and digital tools from idea to deployment.",
             responsibilities: [
-                "Researching cutting-edge AI and ML technologies",
-                "Experimenting with new frameworks and tools",
-                "Contributing to open-source projects",
-                "Building innovative personal projects"
+                "Building client websites and web applications",
+                "Designing and shipping SaaS products end-to-end",
+                "Working with APIs, automation, and modern web tech",
+                "Turning ideas into working, deployed products"
             ],
-            technologies: ["Research", "Innovation", "Open Source", "New Tech"]
+            technologies: ["React", "Next.js", "Node.js", "TypeScript", "TailwindCSS", "APIs"]
         },
         {
             position: "Campus Ambassador",
+            company: "GUESS India",
             period: "2025",
             location: "IIT Mandi, India",
             description: "Participated in the GUESS India Campus Ambassador program, representing the brand within the IIT Mandi community.",
@@ -40,48 +41,6 @@ export const config = {
             ],
             technologies: []
         },
-        {
-            position: "Full Stack Developer",
-            company: "Army Institute of Technology, Pune",
-            period: "2025",
-            location: "Maharashtra, India",
-            description: "Developing intelligent AI systems, chatbots, and machine learning solutions. Building next-gen conversational AI agents and JARVIS-like personal assistants.",
-            responsibilities: [
-                "Building AI-powered chatbots and conversational agents",
-                "Developing machine learning models with TensorFlow and PyTorch",
-                "Working with LLMs and transformer architectures",
-                "Creating autonomous AI systems and automation tools"
-            ],
-            technologies: ["Python", "TensorFlow", "PyTorch", "LLMs", "NLP", "AI Agents"]
-        },
-        {
-            position: "C++ Explorer",
-            company: "Army Institute of Technology, Pune",
-            period: "2025",
-            location: "Maharashtra, India",
-            description: "Dove deep into Python programming, building automation scripts, bots, and mastering the fundamentals of software development and problem-solving.",
-            responsibilities: [
-                "Learning Python programming and core concepts",
-                "Building automation scripts and Discord bots",
-                "Exploring data structures and algorithms",
-                "Participating in competitive programming"
-            ],
-            technologies: ["Python", "Automation", "Scripting", "Discord.py", "Problem Solving"]
-        },
-        {
-            position: "Graphic Designer",
-            company: "Army Institute of Technology, Pune",
-            period: "2025",
-            location: "Maharashtra, India",
-            description: "Started my creative journey as a graphic designer, creating logos, banners, and visual content. This sparked my passion for technology and digital creation.",
-            responsibilities: [
-                "Designing logos and brand identity materials",
-                "Creating social media graphics and banners",
-                "Working with clients on creative projects",
-                "Learning design principles and visual aesthetics"
-            ],
-            technologies: ["Photoshop", "Illustrator", "Canva", "Figma", "Visual Design"]
-        },
     ],
     projects: [
         {
@@ -90,21 +49,21 @@ export const config = {
             image: "/images/brainbell.png",
             description: "An AI-powered study assistant for students with personalized study plans, AI-curated resources, and time management tools.",
             technologies: "React, Node.js, AI", link: "https://brainbell1.netlify.app",
-            github: "https://github.com/sidharthgadhave04-arch"
+            github: "https://github.com/kaizenora"
         },
         {
-            id: 2, title: "SupermarketGo",
-            category: ["React", "Node.js", "MongoDB", "Full Stack"],
-            image: "/images/supermart.png",  // ✓ if file is in public/images/
-            description: "A full-stack supermarket billing and inventory management system with an admin panel to create, modify, delete products, track stock, and view total sales.",
-            technologies: "React, Node.js, MongoDB", link: "https://supermarketgo.vercel.app",
-            github: "https://github.com/sidharthgadhave04-arch"
+            id: 2, title: "peher.online",
+            category: ["E-Commerce", "React", "Next.js", "SaaS"],
+            image: "/images/peher.png",
+            description: "A full-featured jewelry e-commerce store built for a client — featuring product listings, cart, and a clean modern storefront.",
+            technologies: "React, Next.js, TailwindCSS", link: "https://peher.online",
+            github: "https://github.com/kaizenora"
         }
     ],
     contact: {
         email: "sidharthgadhave04@gmail.com",
-        github: "https://github.com/sidharthgadhave04-arch",
-        linkedin: "",
+        github: "https://github.com/kaizenora",
+        linkedin: "https://www.linkedin.com/in/siddharth-gadhave-16a703375?utm_source=share_via&utm_content=profile&utm_medium=member_android",
         twitter: "",
         facebook: "",
         instagram: "https://www.instagram.com/siddharth18x"
@@ -117,10 +76,10 @@ export const config = {
             tools: ["Python", "TensorFlow", "PyTorch", "OpenCV", "Scikit-learn", "LLMs", "NLP", "Deep Learning", "Chatbots", "AI Agents"]
         },
         design: {
-            title: "FULL-STACK",
-            description: "Modern web development & scalable applications",
-            details: "Building responsive and performant web applications using React, Next.js, Node.js, and databases. Creating seamless user experiences with modern UI/UX principles.",
-            tools: ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "PostgreSQL", "TailwindCSS", "REST APIs", "Docker", "Git"]
+            title: "FREELANCE & PRODUCTS",
+            description: "Modern web development, SaaS & product building",
+            details: "Building responsive, performant SaaS and digital products from idea to prototype to deployment. Creating seamless user experiences with modern web technologies.",
+            tools: ["React", "Next.js", "Node.js", "TypeScript", "SaaS", "APIs", "PostgreSQL", "TailwindCSS", "Automation", "Git"]
         }
     }
 };

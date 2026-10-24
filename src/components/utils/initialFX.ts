@@ -77,6 +77,10 @@ export function initialFX() {
   var landingText4 = new TextSplitter(".landing-h2-1", TextProps);
   var landingText5 = new TextSplitter(".landing-h2-2", TextProps);
 
+  // Immediately hide the alternate words so they never overlap the primary words at startup
+  gsap.set(landingText3.chars, { opacity: 0, y: 80 });
+  gsap.set(landingText5.chars, { opacity: 0, y: 80 });
+
   LoopText(landingText2, landingText3);
   LoopText(landingText4, landingText5);
 }
